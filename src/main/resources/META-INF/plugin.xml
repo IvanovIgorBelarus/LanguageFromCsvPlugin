@@ -1,0 +1,22 @@
+<idea-plugin>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>org.jetbrains.kotlin</depends>
+  <id>com.igevmi.LanguageFromCsv</id>
+  <name>LanguageFromCsv</name>
+  <vendor email="igevmi@gmail.com" url="https://www.yourcompany.com">IGEVMI</vendor>
+  <description><![CDATA[You can convert csv file to string.xml for different languages]]></description>
+  <depends>org.jetbrains.android</depends>
+  <depends>com.intellij.modules.androidstudio</depends>
+  <extensions defaultExtensionNs="com.intellij">
+
+  </extensions>
+  <actions>
+    <action
+            id="com.igevmi.languagefromcsv.ConvertAction"
+            class="com.igevmi.languagefromcsv.ConvertAction"
+            text="Parse from csv"
+            description="Парсер языков из файла csv по папкам">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>

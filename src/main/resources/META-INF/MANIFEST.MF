@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: ConvertAction
+Class-Path: annotations-24.0.1.jar ant.jar 3rd-party-rt.jar app.jar byte
+ -buddy-agent.jar error-prone-annotations.jar external-system-rt.jar ext
+ ernalProcess-rt.jar forms_rt.jar groovy.jar idea_rt.jar intellij-covera
+ ge-agent-1.0.706.jar intellij-test-discovery.jar jps-model.jar jsch-age
+ nt.jar junit4.jar protobuf.jar rd.jar stats.jar testFramework.jar util.
+ jar util-8.jar util_rt.jar
+
